@@ -64,7 +64,8 @@ document.querySelectorAll('button').forEach(button => {
         button.addEventListener('click', function() {
             const itemName = this.closest('.menu-card').querySelector('h4').textContent;
             const itemPrice = this.closest('.menu-card').querySelector('.text-2xl').textContent;
-            alert(`Thank you for your interest in ${itemName} (${itemPrice})! \n\nPlease call us at 0000000000 or visit our cafe to place your order.`);
+            alert(`Thank you for your interest in ${itemName} (${itemPrice})! \n\nPlease call us at 7985999836 or visit our cafe to place your order.`);
         });
     }
+
 });
